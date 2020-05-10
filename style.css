@@ -1,14 +1,14 @@
 body {
     margin: 0;
-    background-color: skyblue;
+    background-color: rgb(133, 221, 255);
 }
 
 .top {
     position: fixed;
     width: 100vw;
     overflow-y: hidden;
-    background-color: skyblue;
-    box-shadow: 0px 7px 15px 20px skyblue;
+    background-color: rgb(133, 221, 255);
+    box-shadow: 0px 7px 15px 20px rgb(133, 221, 255);
 }
 
 .headerContainer {
@@ -57,7 +57,7 @@ body {
 input {
     height: 20px;
     width: 300px;
-    background-color: skyblue;
+    background-color: rgb(133, 221, 255);
     text-align: center;
     font-size: 20px;
     border-top: none;
@@ -75,17 +75,35 @@ input {
     margin: 10px;
     border: none;
     color: white;
-    background-color: skyblue;
+    background-color: rgb(133, 221, 255);
+    text-shadow: 1px 1px 5px darkslategrey;
+    letter-spacing: 1px;
+}
+.arrowButton {
+    font-size: 25px;
+    margin: 10px;
+    border: none;
+    color: white;
+    background-color: rgb(133, 221, 255);
     text-shadow: 1px 1px 5px darkslategrey;
     letter-spacing: 1px;
 }
 .button:hover {
     margin: 10px;
     border: none;
-    background-color: skyblue;
+    background-color: rgb(133, 221, 255);
     text-decoration: underline;
     cursor: pointer;
     transform: scale(1.05)
+}
+
+.arrowButton:hover {
+    margin: 10px;
+    border: none;
+    background-color: rgb(133, 221, 255);
+    /* text-decoration: underline; */
+    cursor: pointer;
+    transform: scale(1.1)
 }
 
 .bodyContainer {
